@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../layouts/header") %>
+<body>
+    <div class="main">
+        <div class="mail-box">
+            <div class="api">
+                <div class="api_element">
+                    <p><b>Get Domain List</b></p>
+                    <b>GET - </b> /domains
+                </div>
+
+                <div class="api_element">
+                    <p><b>Create email</b></p>
+                    <b>GET - </b> /account
+                </div>
+
+                <div class="api_element">
+                    <p><b>Get Message List</b></p>
+                    <b>Header - </b> Authorization: Bearer + Token ( <b>Token</b> is token code has been return on step <b> Create email </b>)
+                    <br>
+                    <b>GET - </b> /mailbox 
+                </div>
+
+                <div class="api_element">
+                    <p><b>Get Message Content</b></p>
+                    <b>Header - </b> Authorization: Bearer + Token ( <b>Token</b> is token code has been return on step <b> Create email </b>)
+                    <br>
+                    <b>GET - </b> /message/ID ( <b>ID</b> is <b>_id</b> has been return in <b>Get Message List</b> )
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include("../layouts/footer") %>
+</body>
+</html>

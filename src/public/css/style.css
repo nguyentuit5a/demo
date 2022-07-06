@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    background-color: #24242C;
+    color: #fff;
+    text-align: center;
+    background: #21232a url(https://10minemail.com/js/images/header-bg.jpg) repeat 0 0;
+    padding-bottom: 30px;
+}
+
+.header a{
+    color: #fff;
+}
+
+.email{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 30%;
+    border-radius: 10px;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    border: 2px dashed #383b44;
+    border-image-source: url(https://10minemail.com/js/images/border-box.png);
+    border-image-slice: 2;
+    border-image-repeat: round;
+}
+
+.temp-mail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-adress{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2B2B32;
+    border-radius: 32px;
+    width: 70%;
+    margin-top: 24px;
+    height: 60px;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    padding-left: 45px;
+    padding-right: 32px;
+    text-align: center;
+}
+
+.email-adress p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.realtime{
+    padding: 4px 8px;
+    border-radius: 24px;
+    line-height: 45px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.realtime-2{
+    background-color: #4B4B51;
+    padding: 4px 8px;
+    border-radius: 24px;
+}
+
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    line-height: 80px;
+}
+
+.slogan{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 30%;
+    font-size: 16px;
+    color: #4B4B51;
+    line-height: 24px;
+}
+
+
+
+.main{
+    padding-top: 30px;
+    background-color: #F6F7F9;
+    padding-bottom: 40px;
+}
+
+.mail-box{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.mail:hover{
+    cursor: pointer;
+}
+
+.bar{
+    background-color: #21232a;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.bar a{
+    color: #fff;
+}
+
+.empty-mailbox, .data-mailbox{
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 320px;
+    max-height: 320px;
+    background-color: #FFFFFF;
+    width: 40%;
+    border-radius:0 0 10px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+}
+
+.empty-mailbox svg{
+    margin-top: 20px;
+}
+
+.empty-mailbox p{
+    margin-top: 20px;
+}
+
+.data-item {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.even{
+    background-color: #F6F7F9;
+}
+
+.hide{
+    display: none;
+}
+
+.info{
+    border-bottom: 1px solid #9398AA;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 32px;
+
+}
+
+.info_element{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub{
+    width: 100%;
+    line-height: 46px;
+    border-bottom: 1px solid #9398AA;
+    text-align: left;
+}
+  
+.sub p{
+    margin-left: 5%;
+    color: #9398AA;
+    display: inline-block;
+}
+
+.html{
+    width: 100%;
+    text-align: left;
+    padding: 24px;
+    line-height: 32px;
+}
+
+.api{
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 320px;
+    background-color: #FFFFFF;
+    width: 50%;
+    border-radius:0 0 10px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.api_element{
+    width: 100%;
+    padding: 24px;
+    line-height: 32px;
+}
+
+.footer{
+    padding: 24px 20%;
+    background-color: #22242B;
+    min-height: 200px;
+    
+}
+
+.url{
+    padding: 0 20%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #9398AA;
+    line-height: 50px;
+}
+
+.url a{
+    color: #fff;
+}
+
+ 
+@media only screen
+ 
+and (min-device-width: 375px)
+ 
+and (max-device-width: 667px)
+ 
+and (-webkit-min-device-pixel-ratio: 2)
+ 
+and (orientation: portrait) {
+ 
+    .email, .menu, .email-adress, .slogan{
+        width: 90%;
+    }
+
+    .mail-box, .bar,.data-mailbox {
+        width: 95%;
+    }
+
+    .data-mailbox {
+        overflow-x: hidden;
+    }
+
+    .app {
+        display: none;
+    }
+
+    .footer, .url{
+        padding: 20px 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .url a {
+        margin-right: 20px;
+    }
+}

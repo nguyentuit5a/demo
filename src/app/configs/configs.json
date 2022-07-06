@@ -1,0 +1,7 @@
+{
+    "mongodb_url": "cluster0.2lqgp.mongodb.net",
+    "mongodb_user": "admin",
+    "mongodb_passwd": "password",
+    "mongodb_db": "myFirstDatabase",
+    "access_token_secret": "2ndmailxxx"
+}

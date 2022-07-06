@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../layouts/header") %>
+<body>
+    <div class="main">
+        <div class="mail-box">
+            <div class="bar">
+                <a href="/"><p>Back</p></a>
+                <a href="/"><p>Delete</p></a>
+                
+            </div>
+            <div class=" data-mailbox">
+                <div class="info">
+                    <div class="info_element">
+                        <p id="name">Name</p>
+                        <p>Date</p>
+                    </div>
+                    <div class="info_element">
+                        <p id="from">From</p>
+                        <p id="time">Time</p>
+                    </div>
+
+                </div>
+
+                <div class="sub">
+                    <p>Subject : </p> <span id="subject">Subject</span>
+                </div>
+                <div class="html">
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include("../layouts/footer") %>
+</body>
+<script src="/js/message.js"></script>
+</html>
